@@ -51,4 +51,4 @@ def times(y):  # your code here
 
 
 def divided_by(y):  # your code here
-    return lambda x: x / y
+    return lambda x: x // y
