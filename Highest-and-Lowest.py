@@ -1,5 +1,7 @@
 def high_and_low(numbers):
-
-    numbers = numbers.split(" ")
-    results = sorted(list(map(int,numbers)))
-    return str(max(results))+" "+str(min(results))
+    newNumber = numbers.split(" ")
+    newNumber = list(map(int, newNumber))
+    bnewNumber = str(max(newNumber))
+    snewNumber = str(min(newNumber))
+    newNumber = bnewNumber+" "+snewNumber
+    return newNumber
