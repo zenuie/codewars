@@ -108,3 +108,7 @@ venv.bak/
 .idea/modules.xml
 .idea/vcs.xml
 .DS_Store
+java/.idea/codeStyles/codeStyleConfig.xml
+java/.idea/codeStyles/Project.xml
+java/.idea/java.iml
+*.xml
