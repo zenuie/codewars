@@ -2,7 +2,8 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class KataTest {
-    @Test public void testSomething() {
+    @Test
+    public void testSomething() {
         assertEquals("1337", Kata.toLeetSpeak("LEET"));
         assertEquals("(0D3W@R$", Kata.toLeetSpeak("CODEWARS"));
         assertEquals("#3110 W0R1D", Kata.toLeetSpeak("HELLO WORLD"));
