@@ -1,17 +1,16 @@
-def getCount(inputStr):
-    num_vowels = 0
-    # your code here
-    inputStr.lower()
-    for i in inputStr:
-        if i == "a":
-            num_vowels+=1
-        elif i == "e":
-            num_vowels+=1
-        elif i == "i":
-            num_vowels+=1
-        elif i == "o":
-            num_vowels+=1
-        elif i == "u":
-            num_vowels+=1
+"""
+Return the number (count) of vowels in the given string.
 
-    return num_vowels
+We will consider a, e, i, o, u as vowels for this Kata (but not y).
+
+The input string will only consist of lower case letters and/or spaces.
+"""
+
+
+def get_count(sentence):
+    a_conut = sentence.count('a')
+    e_count = sentence.count('e')
+    i_count = sentence.count('i')
+    o_count = sentence.count('o')
+    u_count = sentence.count('u')
+    return a_conut + e_count + i_count + o_count + u_count
